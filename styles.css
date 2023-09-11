@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 900px;
+    margin: 0 auto; 
+    padding: 20px; 
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.logo{
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.overview {
+    display: flex;
+}
