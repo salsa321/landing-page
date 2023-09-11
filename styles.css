@@ -11,9 +11,6 @@ img {
 
 ul{
     padding-left: 0px;
-}
-
-li {
     list-style-type: none;
 }
 
@@ -30,6 +27,7 @@ a{
 .list {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     width: 900px;
     margin: 0 auto; 
