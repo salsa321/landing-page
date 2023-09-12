@@ -102,7 +102,7 @@ button {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
-    margin: 50px;
+    padding: 35px;
 }
 
 .group {
@@ -111,12 +111,21 @@ button {
     align-items: flex-start;
     gap: 10px;
     text-align: center;
+    padding: 80px;
+    padding-top: 35px;
 }
 
 .pair {
     flex: 1;
 }
 
-/*.border {
-    border: 2px solid #3882F6
-}*/
+.border {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.text {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #1F2937;
+}
