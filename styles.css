@@ -5,8 +5,8 @@ body {
 }
 
 img {
-    max-width: 100px;
-    height: auto;
+    max-height: 100px;
+    width: auto;
 }
 
 ul{
@@ -90,3 +90,33 @@ button {
     padding: 5px 15px;
     border-radius: 5px;
 }
+
+.information {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.sub-heading {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: center;
+}
+
+.pair {
+    flex: 1;
+}
+
+/*.border {
+    border: 2px solid #3882F6
+}*/
