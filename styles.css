@@ -4,11 +4,6 @@ body {
     margin: 0px;
 }
 
-img {
-    max-height: 100px;
-    width: auto;
-}
-
 ul{
     padding-left: 0px;
     list-style-type: none;
@@ -63,6 +58,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 100px;
+    height: auto;
 }
 
 .size {
@@ -122,6 +119,8 @@ button {
 .border {
     border: 2px solid #3882F6;
     border-radius: 10px;
+    max-height: 100px;
+    width: auto;
 }
 
 .text {
@@ -153,4 +152,8 @@ button {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     color: #1F2937;
+}
+
+.end {
+
 }
