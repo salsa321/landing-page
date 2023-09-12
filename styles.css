@@ -129,3 +129,28 @@ button {
     font-size: 18px;
     color: #1F2937;
 }
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.width.q {
+    flex-direction: column;
+}
+
+.quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.ironman {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #1F2937;
+}
