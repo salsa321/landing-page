@@ -43,5 +43,50 @@ a{
 }
 
 .overview {
+    background-color: #1F2937;
+}
+
+.width {
     display: flex;
+    width: 900px;
+    margin: 0 auto;
+    gap: 15px;
+    padding: 80px;
+}
+
+.text {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    min-width: 350px;
+    height: auto;
+}
+
+.big {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.small {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
 }
