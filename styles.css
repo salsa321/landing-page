@@ -17,6 +17,7 @@ a{
 
 .header {
     background-color: #1F2937;
+    flex: 1;
 }
 
 .list {
@@ -39,6 +40,7 @@ a{
 
 .overview {
     background-color: #1F2937;
+    flex: 1;
 }
 
 .width {
@@ -92,6 +94,7 @@ button {
 .information {
     width: 900px;
     margin: 0 auto;
+    flex: 1;
 }
 
 .sub-heading {
@@ -125,13 +128,14 @@ button {
 }
 
 .text {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     color: #1F2937;
 }
 
 .testimonial {
     background-color: #E5E7EB;
+    flex: 1;
 }
 
 .width.q {
@@ -162,9 +166,7 @@ button {
     margin-top: 80px;
     margin-bottom: 80px;
     border-radius: 5px;
-}
-
-.one {
+    flex: 1;
 }
 
 .two {
@@ -192,4 +194,14 @@ button {
     color: #E5E7EB;
 }
 
-
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #E5E7EB;
+    font-family: sans-serif;
+    font-size: 18px;
+    flex: 1;
+}
